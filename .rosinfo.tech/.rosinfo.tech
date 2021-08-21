@@ -1,0 +1,24 @@
+https://www.markdownguide.org/basic-syntax/
+
+
+* Description:
+
+  *
+
+* Benefits:
+
+  *
+
+* Examples:
+
+  * Case #1
+
+    * Incorrect:
+
+      ```typescript
+      ```
+
+    * Correct:
+
+      ```typescript
+      ```
