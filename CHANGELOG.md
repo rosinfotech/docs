@@ -6,6 +6,12 @@
 
 <!-- markdownlint-disable MD024 -->
 
+## [0.0.5] - 2025-01-17
+
+### Added
+
+- 2103051010: Rule: Unified Timestamp Label (UTLBL) - simple approach to unique identify anything;
+
 ## [0.0.4] - 2025-01-17
 
 ### Improved
