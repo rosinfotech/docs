@@ -6,6 +6,12 @@
 
 <!-- markdownlint-disable MD024 -->
 
+## [0.0.4] - 2025-01-17
+
+### Improved
+
+- Rules decomposition;
+
 ## [0.0.3] - 2025-01-17
 
 ### Added
