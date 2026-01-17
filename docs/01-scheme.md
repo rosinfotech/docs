@@ -1,13 +1,4 @@
-Plan
-
-  contradiction common to specific rule and varFile
-
-    need qualifications
-
-  rules about args as object or simple
-
 https://www.markdownguide.org/basic-syntax/
-
 
 * Description:
 

@@ -2,4 +2,4 @@
 
 # The Rosinfotech Documents
 
-* [The Base Programming Standards](TheBaseProgrammingStandards.md "The Base Programming Standards")
+* [The Base Programming Standards](docs/02-the-base-programming-standards.md "The Base Programming Standards")
