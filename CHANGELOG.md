@@ -6,6 +6,12 @@
 
 <!-- markdownlint-disable MD024 -->
 
+## [0.0.8] - 2026-01-19
+
+### Fixed
+
+- Logo at the top of the index page;
+
 ## [0.0.7] - 2026-01-19
 
 ### Added

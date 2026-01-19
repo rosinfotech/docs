@@ -1,4 +1,4 @@
-[![rosinfo.tech](/assets/id_logo_width_160.svg "rosinfo.tech")](https://rosinfo.tech)
+[![rosinfo.tech](https://cdn.rosinfo.tech/id/logo/id_logo_width_160.svg "rosinfo.tech")](https://rosinfo.tech)
 
 # The Rosinfotech Documents
 
