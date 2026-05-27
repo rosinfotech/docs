@@ -6,6 +6,12 @@
 
 <!-- markdownlint-disable MD024 -->
 
+## [0.0.9] - 2026-05-28
+
+### Changed
+
+- Added descriptive titles to all rule links in The Base Programming Standards;
+
 ## [0.0.8] - 2026-01-19
 
 ### Fixed
