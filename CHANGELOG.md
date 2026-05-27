@@ -6,6 +6,12 @@
 
 <!-- markdownlint-disable MD024 -->
 
+## [0.0.10] - 2026-05-28
+
+### Added
+
+- Rules #2605280101 and #2605280102: TypeScript type naming prefixes (I, T, E, G) and unused variables with underscore prefix;
+
 ## [0.0.9] - 2026-05-28
 
 ### Changed

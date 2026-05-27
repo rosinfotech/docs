@@ -34,3 +34,10 @@
 #### Function's and method's definition
 
 - [Rule #2109011651 - Function Arguments: Up to 3 Required + Options Object](/docs/name-convention/rule-2109011651.md)
+
+### Types
+
+#### TypeScript
+
+- [Rule #2605280101 - Type Naming Prefixes: I, T, E, G](/docs/name-convention/rule-2605280101.md)
+- [Rule #2605280102 - Unused Variables: Underscore Prefix](/docs/name-convention/rule-2605280102.md)
