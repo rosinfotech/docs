@@ -1,13 +1,14 @@
 #!/bin/bash
 
-source ./.makefile/get_version.sh
+LIB_DIR="$(cd "$(dirname "$0")" && pwd)"
 
-gitCommitPush() {
+source "$LIB_DIR/version_get.sh"
+
+gitCommitVersion() {
 
     local version
     local message="$1"
     local current_branch
-    local remote_name="origin"
 
     version=$(getVersion)
 
@@ -34,8 +35,10 @@ gitCommitPush() {
     git add .
 
     if [ -z "$message" ]; then
+        commit_msg="${version}"
         git commit -m "${version}"
     else
+        commit_msg="${version}: ${message}"
         git commit -m "${version}: ${message}"
     fi
 
@@ -44,32 +47,8 @@ gitCommitPush() {
         exit 1
     fi
 
-    if ! git push 2>/dev/null; then
-        echo "Warning: Push failed, trying to set upstream and push..."
-        if git push --set-upstream "${remote_name}" "${current_branch}"; then
-            echo "Upstream set successfully"
-        else
-            echo "Error: Failed to push commit"
-            exit 1
-        fi
-    fi
-
-    git tag "${version}"
-
-    if [ $? -ne 0 ]; then
-        echo "Error: Failed to create tag ${version}"
-        exit 1
-    fi
-
-    git push --tags
-
-    if [ $? -ne 0 ]; then
-        echo "Error: Failed to push tags"
-        exit 1
-    fi
-
-    echo "Successfully committed, pushed, and tagged with version ${version}"
+    echo "Successfully committed with message: ${commit_msg}"
 
 }
 
-gitCommitPush "$@"
+gitCommitVersion "$@"

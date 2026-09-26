@@ -6,6 +6,16 @@
 
 <!-- markdownlint-disable MD024 -->
 
+## [0.0.11] - 2026-09-26
+
+### Changed
+
+- Makefile now uses self-contained vendored framework from .makefile/vendor/rosinfotech instead of globally linked scripts;
+
+### Removed
+
+- Old globally linked .makefile scripts and project-specific docker/deploy Makefile targets;
+
 ## [0.0.10] - 2026-05-28
 
 ### Added
