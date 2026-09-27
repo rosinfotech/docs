@@ -6,6 +6,25 @@
 
 <!-- markdownlint-disable MD024 -->
 
+## [0.1.0] - 2026-09-27
+
+### Changed
+
+- Restructured the standards catalog: renamed docs/ to standards/, moved the master index into README.md, reorganized into four standards (Documentation, Common Code Style, Security, AI) whose folders mirror the index sections with the -standard suffix;
+
+### Added
+
+- The AI standard: the AGENTS.md hierarchy of two levels (Rule #2609262010) with the level assets AGENTS-STANDARD-1.md and AGENTS-STANDARD-2.md;
+- Rules #2609262015 - #2609262035: agent behavior and workflow (git write prohibition, sensitive data diff scan, clickable file references, commit preparation flow, repository initialization);
+- Rules #2609270950 and #2609270952: indentation of 4 spaces and TSV over CSV;
+- Rules #2609270954 and #2609270956: progressive disclosure in structured descriptions and git references pinned to commit and lines;
+- Rules #2609270958, #2609271000 and #2609271120: sensitive information, interactive step-by-step work, Project AGENTS.md composition;
+- Rules #2609271055 and #2609271057: standard formation and rule naming/schema, with the rule scheme asset;
+
+### Removed
+
+- The docs/ folder structure, the Figma MCP example from the Project AGENTS.md skeleton and Kilo-specific references;
+
 ## [0.0.11] - 2026-09-26
 
 ### Changed
