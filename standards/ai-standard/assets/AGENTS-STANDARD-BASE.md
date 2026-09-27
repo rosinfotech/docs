@@ -1,24 +1,3 @@
-[![rosinfo.tech](https://cdn.rosinfo.tech/id/logo/id_logo_width_160.svg "rosinfo.tech")](https://rosinfo.tech)
-
-# The Rosinfotech Base Standards
-
-## The AI Standard
-
-### Level 1 - Base AGENTS.md (ready to copy)
-
-This is the source of truth for the Base AGENTS.md (Level 1, see [Rule #2609262010](/standards/ai-standard/rule-2609262010.md)).
-
-* How to use:
-
-  * Copy the fenced block below into the target `AGENTS.md` - the user-global agent config and/or the repository root;
-
-  * Copy it as-is: per-project adjustments belong to Level 2 ([skeleton](/standards/ai-standard/assets/AGENTS-STANDARD-2.md)), never here;
-
-  * Russian trigger phrases are intentional - the team is Russian-speaking;
-
-  * Rule mapping (the full level composition: [Rule #2609262010](/standards/ai-standard/rule-2609262010.md)): "Git" implements [Rule #2609262015](/standards/ai-standard/rule-2609262015.md); "Sensitive information" implements [Rule #2609270958](/standards/security-standard/rule-2609270958.md) and [Rule #2609262020](/standards/ai-standard/rule-2609262020.md); "File references" implements [Rule #2609270956](/standards/documentation-standard/rule-2609270956.md) and [Rule #2609262025](/standards/ai-standard/rule-2609262025.md); "Interactive work" implements [Rule #2609271000](/standards/ai-standard/rule-2609271000.md); "Commit requests" implements [Rule #2609262030](/standards/ai-standard/rule-2609262030.md); "Repository initialization" implements [Rule #2609262035](/standards/ai-standard/rule-2609262035.md).
-
-```markdown
 # Global rules (all projects)
 
 ## Git — absolute prohibition
@@ -68,10 +47,10 @@ This is the source of truth for the Base AGENTS.md (Level 1, see [Rule #26092620
   - a `.version` file;
   - `CHANGELOG.md`;
   - `README.md`.
-- If the repo IS prepared: use the `question` tool (button choice, no typing required) to ask whether to apply the skill `skill-makefile-create-commit-push` (see the `rosinfotech/makefile` repository, `ai-skills/skill-makefile-create-commit-push/ru/SKILL.md`). Options: "Да, применить скилл" (recommended) / "Нет, обычный коммит".
+- If the repo IS prepared: use the `question` tool (button choice, no typing required) to ask whether to apply the skill `skill-makefile-create-commit-push` (https://github.com/rosinfotech/makefile/blob/main/ai-skills/skill-makefile-create-commit-push/ru/SKILL.md). Options: "Да, применить скилл" (recommended) / "Нет, обычный коммит".
   - If the user answers yes: read that SKILL.md and follow it step by step (version check via `.version`, CHANGELOG.md entry, README.md update proposal, final `make git_commit_push "<message>"` proposal — which the user runs personally).
   - If the user answers no: proceed with a plain commit flow.
-- If the repo is NOT prepared (any of the three files missing): NEVER silently pick a fallback. Use the `question` tool: report which of the makefile workflow files are missing and ask whether to bring the repo to the required state so the skill can be applied. Options: "Привести к нужному состоянию и применить скилл" (recommended) / "Обычный коммит".
+- If the repo is NOT prepared (any of the three files missing): NEVER silently pick a fallback. Use the `question` tool: report which of the makefile workflow files (`.version` / `CHANGELOG.md` / `README.md`) are missing and ask whether to bring the repo to the required state so the skill can be applied. Options: "Привести к нужному состоянию и применить скилл" (recommended) / "Обычный коммит".
   - If the user answers yes: create the missing files as the makefile workflow expects, then apply the skill step by step.
   - If the user answers no: proceed with a plain commit flow.
 - This section does not weaken the "Git — absolute prohibition" rules above: an explicit commit request from the user is still required, and pushes still need explicit approval (the skill itself ends with the user running `make git_commit_push` manually).
@@ -79,9 +58,8 @@ This is the source of truth for the Base AGENTS.md (Level 1, see [Rule #26092620
 ## Repository initialization — makefile init skill (all projects)
 
 - TRIGGER: whenever the user asks to initialize a git repository ("проинициализировать репозиторий", "инициализировать гит репозиторий", "создать репозиторий", "git init", "initialize a repository") or a task in a not-yet-git directory explicitly requires repository initialization.
-- Do NOT run `git init` or create any files immediately. First use the `question` tool (button choice, no typing required) to offer the skill `skill-makefile-initialize-repository` (see the `rosinfotech/makefile` repository, `ai-skills/skill-makefile-initialize-repository/SKILL.md`). Options: "Да, применить скилл" (recommended) / "Нет, обычная инициализация".
+- Do NOT run `git init` or create any files immediately. First use the `question` tool (button choice, no typing required) to offer the skill `skill-makefile-initialize-repository` (https://github.com/rosinfotech/makefile/blob/main/ai-skills/skill-makefile-initialize-repository/SKILL.md). Options: "Да, применить скилл" (recommended) / "Нет, обычная инициализация".
   - If the user answers yes: read that SKILL.md and follow it step by step (create `.version`, `CHANGELOG.md`, `README.md` in the project root, then suggest committing via the `skill-makefile-create-commit-push` skill with message `Initialization`). The skill expects an existing git repository: if the directory is not one yet, run `git init` first — the user's explicit initialization request covers `git init` only, no other git write operations.
   - If the user answers no: perform only what the user explicitly asked for (e.g. a plain `git init`), nothing more.
 - If the directory already IS a prepared makefile repo (`.version` + `CHANGELOG.md` + `README.md` present), the skill is unnecessary — say so and skip the question.
 - This section does not weaken the "Git — absolute prohibition" rules above: without an explicit initialization request, do not touch git state at all.
-```

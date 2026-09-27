@@ -85,15 +85,18 @@
 
 ### The AI Automation Standard
 
-- [Rule #2609262010 - Two Levels: Base and Project](/standards/ai-standard/rule-2609262010.md)
 - [Rule #2609262015 - Git: No Write Operations Without an Explicit Order](/standards/ai-standard/rule-2609262015.md)
 - [Rule #2609262020 - Sensitive Data: Scan Diffs Before Commit Proposals](/standards/ai-standard/rule-2609262020.md)
 - [Rule #2609262025 - File References: Clickable Links Only](/standards/ai-standard/rule-2609262025.md)
 - [Rule #2609262030 - Commit Requests: Preparation Flow Only](/standards/ai-standard/rule-2609262030.md)
 - [Rule #2609262035 - Repository Initialization: Ask Before Init](/standards/ai-standard/rule-2609262035.md)
-- [Rule #2609271120 - Project AGENTS.md Composition](/standards/ai-standard/rule-2609271120.md)
 
-### Templates
+### AGENTS.md
 
-- [Level 1 - Base AGENTS.md (ready to copy)](/standards/ai-standard/assets/AGENTS-STANDARD-1.md)
-- [Level 2 - Project AGENTS.md (skeleton)](/standards/ai-standard/assets/AGENTS-STANDARD-2.md)
+- [Rule #2609262010 - The AGENTS.md Model: Base and Roles](/standards/ai-standard/rule-2609262010.md)
+- [Rule #2609271528 - The BASE AGENTS.md: Composition](/standards/ai-standard/rule-2609271528.md)
+- [Rule #2609271530 - Architect AGENTS.md: Whole Projects and Microservices](/standards/ai-standard/rule-2609271530.md)
+- [Rule #2609271532 - Backend Engineer AGENTS.md: Go](/standards/ai-standard/rule-2609271532.md)
+- [Rule #2609271534 - Backend Engineer AGENTS.md: Java](/standards/ai-standard/rule-2609271534.md)
+- [Rule #2609271536 - Backend Engineer AGENTS.md: TypeScript (NodeJS)](/standards/ai-standard/rule-2609271536.md)
+- [Rule #2609271538 - Frontend Engineer AGENTS.md: TypeScript + React](/standards/ai-standard/rule-2609271538.md)
