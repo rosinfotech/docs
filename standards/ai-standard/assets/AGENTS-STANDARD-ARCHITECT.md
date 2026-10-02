@@ -21,7 +21,11 @@
 - References to existing code are pinned to the commit and lines.
 - Stay abstract about infrastructure: no IPs, no ports, no hostnames - server codenames only.
 - Record every decision: what was chosen, why, what was rejected.
-- Naming follows the Common Code Style Standard: from general to specific (Rule #2103052001), abbreviations in uppercase (Rule #2108211519), unique sortable labels via the Unified Timestamp Label YYMMDDHHMM (Rule #2103051010), repository directories in kebab case (Rule #2601190149).
+- Naming follows the Common Code Style Standard:
+  - from general to specific (Rule #2103052001);
+  - abbreviations in uppercase (Rule #2108211519);
+  - unique sortable labels via the Unified Timestamp Label YYMMDDHHMM (Rule #2103051010);
+  - repository directories in kebab case (Rule #2601190149).
 - Tabular data in artifacts: TSV over CSV (Rule #2609270952).
 
 ## Boundaries

@@ -29,7 +29,12 @@
 - Unique sortable labels (error labels, artifact names) use the Unified Timestamp Label, short form YYMMDDHHMM (Rule #2103051010).
 - Directories: kebab case, abbreviations lowercase (Rule #2601190149).
 - Bash script files: snake case, abbreviations lowercase (Rule #2601190214).
-- Path and file variables carry suffixes: `...File` (file name with extension), `...FileNoExtension` (file name without extension), `...Path` (directory path), `...Directory` (directory name), `...PathFile` (path to a concrete file) (Rules #2108211636, #2108211643, #2108211646, #2108211652, #2108211659).
+- Path and file variables carry suffixes:
+  - `...File` - file name with extension (Rule #2108211636);
+  - `...FileNoExtension` - file name without extension (Rule #2108211643);
+  - `...Path` - directory path (Rule #2108211646);
+  - `...Directory` - directory name (Rule #2108211652);
+  - `...PathFile` - path to a concrete file (Rule #2108211659).
 - Functions and methods: at most 3 required arguments; optional arguments go into an options object placed last (Rule #2109011651).
 - Indentation: 4 spaces, no tabs; in Go source the gofmt output (tabs) wins (Rule #2609270950).
 - Tabular data files: TSV over CSV (Rule #2609270952).

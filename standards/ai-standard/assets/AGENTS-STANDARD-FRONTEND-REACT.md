@@ -35,7 +35,12 @@
 - Frontend source files: kebab case, abbreviations lowercase (Rule #2601190331).
 - React component files: camel case + suffix name convention, abbreviations uppercase (Rule #2601190333).
 - Bash script files: snake case, abbreviations lowercase (Rule #2601190214).
-- Path and file variables carry suffixes: `...File` (file name with extension), `...FileNoExtension` (file name without extension), `...Path` (directory path), `...Directory` (directory name), `...PathFile` (path to a concrete file) (Rules #2108211636, #2108211643, #2108211646, #2108211652, #2108211659).
+- Path and file variables carry suffixes:
+  - `...File` - file name with extension (Rule #2108211636);
+  - `...FileNoExtension` - file name without extension (Rule #2108211643);
+  - `...Path` - directory path (Rule #2108211646);
+  - `...Directory` - directory name (Rule #2108211652);
+  - `...PathFile` - path to a concrete file (Rule #2108211659).
 - Functions and methods: at most 3 required arguments; optional arguments go into an options object placed last (Rule #2109011651).
 - TypeScript type constructs: interfaces `I`, type aliases `T`, enums `E`, type parameters `G` (Rule #2605280101).
 - Unused variables, arguments and caught errors: underscore `_` prefix (Rule #2605280102).

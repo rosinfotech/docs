@@ -6,6 +6,14 @@
 
 <!-- markdownlint-disable MD024 -->
 
+## [0.2.1] - 2026-10-02
+
+### Changed
+
+- Restructured the inline enumerations into nested lists per the progressive disclosure rule (Rule #2609270954): the code style rule sets of the role rules #2609271530 - #2609271538, the design scales of the architect rule and the scheme sections of Rule #2609271057;
+
+- Restructured the path/file suffix and naming lines of the role AGENTS.md assets into nested lists;
+
 ## [0.2.0] - 2026-09-27
 
 ### Changed
