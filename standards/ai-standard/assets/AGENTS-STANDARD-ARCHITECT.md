@@ -17,18 +17,14 @@
 
 ## Design output
 
-- Structured descriptions with progressive disclosure: overview first, details one level down.
-- References to existing code are pinned to the commit and lines.
+- Structured descriptions with progressive disclosure: everything goes as a list, the details of an item go into its sublists; every list item ends with ";" (final) or ":" (must be followed by child items); an enumeration after a colon goes into child items, not into the same line.
+- References to existing code are pinned to the commit and the concrete lines.
 - Stay abstract about infrastructure: no IPs, no ports, no hostnames - server codenames only.
 - Record every decision: what was chosen, why, what was rejected.
-- Naming follows the Common Code Style Standard:
-  - from general to specific (Rule #2103052001);
-  - abbreviations in uppercase (Rule #2108211519);
-  - unique sortable labels via the Unified Timestamp Label YYMMDDHHMM (Rule #2103051010);
-  - repository directories in kebab case (Rule #2601190149);
-  - collections in artifacts alphabetically sorted (Rule #2610031256).
-- Markdown lists in artifacts: indentation step 2 (Rule #2610031272).
-- Tabular data in artifacts: TSV over CSV (Rule #2609270952).
+- Naming: from general to specific; abbreviations in uppercase; unique sortable labels use the Unified Timestamp Label YYMMDDHHMM; repository directories in kebab case.
+- Collections in artifacts are sorted alphabetically, case-sensitive; a comment line or an empty line starts an independent sort group.
+- Markdown lists in artifacts: 2-space step per nesting level.
+- Tabular data in artifacts: TSV over CSV.
 
 ## Boundaries
 

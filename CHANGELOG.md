@@ -6,6 +6,16 @@
 
 <!-- markdownlint-disable MD024 -->
 
+## [0.3.2] - 2026-10-03
+
+### Changed
+
+- The role AGENTS.md assets are self-contained instructions now: the full meaning of every included rule inlined as text, no rule IDs and no catalog links - an agent has nothing to fetch or analyze;
+
+- The TypeScript backend and frontend assets carry the Lints section with the explicit lint config repository URLs to apply in repositories (4 and 6 repositories respectively);
+
+- The rule inclusion model (#2609262010) and the BASE composition (#2609271528) reformulated: the full meaning over the reference; rule IDs and links appear only where the file needs them on purpose;
+
 ## [0.3.1] - 2026-10-03
 
 ### Changed
