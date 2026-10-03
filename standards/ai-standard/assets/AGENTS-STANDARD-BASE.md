@@ -43,6 +43,14 @@
   - questions about existing code;
   - reviews and discussions.
 
+## Agent scripts — .agents and Node.js (all projects)
+
+- When I need a helper script for my own work - a technical micro-task such as targeted file parsing, converting a file from one format to another, an internet search and/or data scraping within the assigned task - the script lives in the `.agents/` directory of the project root (a dedicated home for my tooling, separate from the project's own scripts) and runs on Node.js (JavaScript), regardless of the project's own stack.
+- Dependency discipline:
+  - prefer Node built-ins (`fs`, the global `fetch`, `crypto`, `zlib`) - the scripts stay zero-dependency whenever possible;
+  - when a dependency is unavoidable, `npm init -y` and `npm install` run INSIDE `.agents/` (its own `package.json` and `node_modules`) - never in the project root.
+- This covers my working tooling only - the project source code follows the project's language and structure.
+
 ## Sensitive information — never in committed files (all projects)
 
 - NEVER write sensitive information into any "reading-oriented" file or any other file tracked by git: README.md, CHANGELOG.md, docs/**, CONTRIBUTING, wikis, *.md, comments, commit messages — i.e. anything users read to get familiar with the project: IPs, ports, hostnames, credentials, passwords, tokens, SSH endpoints, internal server details.

@@ -6,6 +6,12 @@
 
 <!-- markdownlint-disable MD024 -->
 
+## [0.4.5] - 2026-10-03
+
+### Added
+
+- The agent scripts norm (Rule #2610031908): ad-hoc helper scripts for micro-tasks live in the `.agents/` directory of the project root and run on Node.js regardless of the project stack; the dependency discipline - prefer Node built-ins (zero-dependency), unavoidable dependencies install inside `.agents/`, never in the project root; the BASE core gains the sixth section;
+
 ## [0.4.4] - 2026-10-03
 
 ### Added
