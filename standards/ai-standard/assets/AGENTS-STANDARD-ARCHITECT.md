@@ -25,7 +25,9 @@
   - from general to specific (Rule #2103052001);
   - abbreviations in uppercase (Rule #2108211519);
   - unique sortable labels via the Unified Timestamp Label YYMMDDHHMM (Rule #2103051010);
-  - repository directories in kebab case (Rule #2601190149).
+  - repository directories in kebab case (Rule #2601190149);
+  - collections in artifacts alphabetically sorted (Rule #2610031256).
+- Markdown lists in artifacts: indentation step 2 (Rule #2610031272).
 - Tabular data in artifacts: TSV over CSV (Rule #2609270952).
 
 ## Boundaries

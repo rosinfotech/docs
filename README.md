@@ -56,20 +56,85 @@
 
 - [Rule #2109011651 - Function Arguments: Up to 3 Required + Options Object](/standards/common-code-style-standard/rule-2109011651.md)
 
-#### Types
+### Sorting
 
-##### TypeScript
+- [Rule #2610031256 - Collections: Alphabetical Sorting](/standards/common-code-style-standard/rule-2610031256.md)
 
-- [Rule #2605280101 - Type Naming Prefixes: I, T, E, G](/standards/common-code-style-standard/rule-2605280101.md)
-- [Rule #2605280102 - Unused Variables: Underscore Prefix](/standards/common-code-style-standard/rule-2605280102.md)
+### Imports
+
+- [Rule #2610031258 - Imports: Order, Hygiene, No Cycles](/standards/common-code-style-standard/rule-2610031258.md)
+
+### Declarations
+
+- [Rule #2610031260 - Declare Before Use, One per Statement, Prefer Const](/standards/common-code-style-standard/rule-2610031260.md)
+
+### Expressions
+
+- [Rule #2610031262 - Explicit Expressions and Canonical Shorthands](/standards/common-code-style-standard/rule-2610031262.md)
+
+### Formatting
+
+- [Rule #2610031264 - Line Formatting: Length 100, LF, No BOM](/standards/common-code-style-standard/rule-2610031264.md)
+- [Rule #2610031266 - Empty Lines Discipline](/standards/common-code-style-standard/rule-2610031266.md)
+- [Rule #2610031268 - Operator and Brace Spacing](/standards/common-code-style-standard/rule-2610031268.md)
+- [Rule #2610031270 - Multiline Consistency](/standards/common-code-style-standard/rule-2610031270.md)
 
 ### Indentation
 
 - [Rule #2609270950 - Indentation: 4 Spaces, No Tabs](/standards/common-code-style-standard/rule-2609270950.md)
+- [Rule #2610031272 - Markdown Lists: Indentation Step 2](/standards/common-code-style-standard/rule-2610031272.md)
 
 ### Tabular data
 
 - [Rule #2609270952 - Tabular Data: Prefer TSV over CSV](/standards/common-code-style-standard/rule-2609270952.md)
+
+## The JavaScript Code Style Standard
+
+### Variables
+
+- [Rule #2605280102 - Unused Variables: Underscore Prefix](/standards/javascript-code-style-standard/rule-2605280102.md)
+
+### Strings and Statements
+
+- [Rule #2610031274 - String and Statement Formatting](/standards/javascript-code-style-standard/rule-2610031274.md)
+
+### Tooling
+
+- [Rule #2610031276 - Formatter Precedence: Prettier Owns the Layout](/standards/javascript-code-style-standard/rule-2610031276.md)
+
+## The TypeScript Code Style Standard
+
+### Types
+
+- [Rule #2605280101 - Type Naming Prefixes: I, T, E, G](/standards/typescript-code-style-standard/rule-2605280101.md)
+
+### Imports
+
+- [Rule #2610031278 - Type-Only Imports: Separate Statement](/standards/typescript-code-style-standard/rule-2610031278.md)
+
+## The React Code Style Standard
+
+### Hooks
+
+- [Rule #2610031280 - Hooks Discipline](/standards/react-code-style-standard/rule-2610031280.md)
+
+### JSX
+
+- [Rule #2610031282 - JSX Formatting](/standards/react-code-style-standard/rule-2610031282.md)
+
+### Exports
+
+- [Rule #2610031284 - Fast Refresh Exports](/standards/react-code-style-standard/rule-2610031284.md)
+
+## The CSS Code Style Standard
+
+### Formatting
+
+- [Rule #2610031286 - Style Formatting](/standards/css-code-style-standard/rule-2610031286.md)
+
+### Order
+
+- [Rule #2610031288 - Property Order](/standards/css-code-style-standard/rule-2610031288.md)
 
 ## The Security Standard
 

@@ -6,6 +6,24 @@
 
 <!-- markdownlint-disable MD024 -->
 
+## [0.3.0] - 2026-10-03
+
+### Added
+
+- The lint standards: 17 new rules extracted from the shared lint configs (prettier-config-standard, eslint-config-javascript, eslint-config-import, eslint-config-typescript, eslint-config-react, stylelint-config-standard) - every rule names the repository that supports it (the Enforcement note);
+
+- The Common Code Style Standard subsections: Sorting, Imports, Declarations, Expressions, Formatting (4 rules) and the Markdown lists exception (indentation step 2 in `*.md`, the documented exception of Rule #2609270950);
+
+### Changed
+
+- The language-specific rules moved out of the common standard into per-language standards: The JavaScript, TypeScript, React and CSS Code Style Standards - the Common Code Style Standard now carries only universal rules;
+
+- Rule #2605280102 (unused variables: underscore prefix) scope extended from TypeScript to JavaScript and TypeScript;
+
+- The role AGENTS.md rules and assets (#2609271530 - #2609271538) include the new rule sets: universal rules for every role, the language standards for the TypeScript backend and the React frontend;
+
+- The import cycles are forbidden: the no-cycle norm is part of the Imports rule (Rule #2610031258), the eslint-config-import repository enables it;
+
 ## [0.2.1] - 2026-10-02
 
 ### Changed
