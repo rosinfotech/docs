@@ -20,6 +20,16 @@
   <!-- /AGENTS-INCLUDE: https://raw.githubusercontent.com/rosinfotech/standards/master/standards/ai-standard/assets/<file> -->
 - The base rules above always win over the included content.
 
+## AGENTS.md self-update — refresh from the standards repository (all projects)
+
+- TRIGGER: whenever the user asks to "обнови AGENTS.md", "обнови свои правила", "update your AGENTS.md" - the full refresh of everything this file takes from the standards repository (unlike "обнови включения", which refreshes the inclusion blocks only).
+- On the trigger:
+  - fetch the current base asset: `https://raw.githubusercontent.com/rosinfotech/standards/master/standards/ai-standard/assets/AGENTS-STANDARD-BASE.md`;
+  - replace the core zone - everything from the file start to the first inclusion marker, or the whole file when no inclusions exist - with the fetched content;
+  - then update every marked inclusion block from its URL (the inclusions section above);
+  - never touch the content that is neither the core zone nor a marked block;
+  - a file that does not start with the Rosinfotech base heading (`# Global rules (all projects)`) is not a composed base - report it and do nothing.
+
 ## Sensitive information — never in committed files (all projects)
 
 - NEVER write sensitive information into any "reading-oriented" file or any other file tracked by git: README.md, CHANGELOG.md, docs/**, CONTRIBUTING, wikis, *.md, comments, commit messages — i.e. anything users read to get familiar with the project: IPs, ports, hostnames, credentials, passwords, tokens, SSH endpoints, internal server details.

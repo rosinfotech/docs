@@ -6,6 +6,12 @@
 
 <!-- markdownlint-disable MD024 -->
 
+## [0.4.3] - 2026-10-03
+
+### Added
+
+- The AGENTS.md self-update: on the user's request ("обнови AGENTS.md") the agent refreshes everything the file takes from the standards repository - the core zone is replaced with the current BASE asset, every marked inclusion block is re-fetched; custom content outside the core zone and the blocks stays untouched (the model Rule #2609262010, the BASE asset section);
+
 ## [0.4.2] - 2026-10-03
 
 ### Changed
