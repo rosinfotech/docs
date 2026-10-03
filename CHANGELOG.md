@@ -6,6 +6,14 @@
 
 <!-- markdownlint-disable MD024 -->
 
+## [0.3.1] - 2026-10-03
+
+### Changed
+
+- The progressive disclosure rule (#2609270954) explicitly covers inline enumerations after a colon - the colon is the disclosure marker; the affected items across the catalog restructured into sublists;
+
+- The code examples re-audited against their own rules: 4-space indentation inside code fences everywhere (Rules #2103052001, #2109011651, #2605280102, #2610031286) and the Correct examples fixed to comply - the imports block of Rule #2610031258, the JSX props order of Rule #2610031282, the numeric literal of Rule #2610031262, the declaration syntax of Rule #2610031260, the length label of Rule #2610031264, the quotes of Rule #2605280101;
+
 ## [0.3.0] - 2026-10-03
 
 ### Added
