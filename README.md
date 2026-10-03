@@ -160,6 +160,10 @@
 
 - [Rule #2609262010 - The AGENTS.md Model: Base and Roles](/standards/ai-standard/rule-2609262010.md)
 - [Rule #2609271528 - The BASE AGENTS.md: Composition](/standards/ai-standard/rule-2609271528.md)
+- [Rule #2610031427 - AGENTS.md Inclusions: Role Assets from the Standards Repository](/standards/ai-standard/rule-2610031427.md)
+- [Rule #2610031647 - Git Manager AGENTS.md: Commits and Repository Initialization](/standards/ai-standard/rule-2610031647.md)
+- [Rule #2610031649 - Technical Writer AGENTS.md: Progressive Disclosure and References](/standards/ai-standard/rule-2610031649.md)
+- [Rule #2610031651 - Researcher AGENTS.md: Interactive Exploration](/standards/ai-standard/rule-2610031651.md)
 - [Rule #2609271530 - Architect AGENTS.md: Whole Projects and Microservices](/standards/ai-standard/rule-2609271530.md)
 - [Rule #2609271532 - Backend Engineer AGENTS.md: Go](/standards/ai-standard/rule-2609271532.md)
 - [Rule #2609271534 - Backend Engineer AGENTS.md: Java](/standards/ai-standard/rule-2609271534.md)

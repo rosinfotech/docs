@@ -6,6 +6,26 @@
 
 <!-- markdownlint-disable MD024 -->
 
+## [0.4.0] - 2026-10-03
+
+### Added
+
+- The AGENTS.md inclusions mechanism (Rule #2610031427): the include command refreshes the link base (the asset listing of the standards repository), updates the existing marked blocks and appends the semantically closest role asset - the composition is operable in place;
+
+- The functional roles, split out of the BASE AGENTS.md, with ready-to-copy assets:
+
+  - Git Manager (Rule #2610031647) - the commit preparation flow and the repository initialization;
+
+  - Technical Writer (Rule #2610031649) - progressive disclosure woven first, the file references second;
+
+  - Researcher (Rule #2610031651) - the interactive step-by-step work;
+
+### Changed
+
+- The BASE AGENTS.md is the behavioral core now - exactly three sections: AGENTS.md inclusions, Sensitive information, Git - the absolute prohibition; everything else is included from the role assets on demand (Rule #2609271528);
+
+- The role model (#2609262010) distinguishes the functional roles and the engineering roles;
+
 ## [0.3.2] - 2026-10-03
 
 ### Changed
