@@ -30,6 +30,19 @@
   - never touch the content that is neither the core zone nor a marked block;
   - a file that does not start with the Rosinfotech base heading (`# Global rules (all projects)`) is not a composed base - report it and do nothing.
 
+## New project — ask for the workspace (all projects)
+
+- TRIGGER: a task starts that looks like production work on a new project - building a new application, service, library, site.
+- Ask whether to create a separate directory for the project or to work in an already created one - a button choice: "Создать отдельную директорию" (propose a name when creating) / "Работать в текущей".
+- The question is asked ONLY when both conditions hold:
+  - the user has not communicated a working directory explicitly;
+  - the contextual directory carries no project markers (`.git`, `.kilo`, `Makefile`, `.makefile/`, `package.json`, `node_modules`, `go.mod`, `Cargo.toml`, `pom.xml`, `build.gradle`, `build.gradle.kts`, `pyproject.toml`, `requirements.txt`, `composer.json` and the equivalents of other language ecosystems).
+- An explicit directory or a detected marker means no question - work where the context points.
+- The question never fires in non-production interactions:
+  - the research/ask mode;
+  - questions about existing code;
+  - reviews and discussions.
+
 ## Sensitive information — never in committed files (all projects)
 
 - NEVER write sensitive information into any "reading-oriented" file or any other file tracked by git: README.md, CHANGELOG.md, docs/**, CONTRIBUTING, wikis, *.md, comments, commit messages — i.e. anything users read to get familiar with the project: IPs, ports, hostnames, credentials, passwords, tokens, SSH endpoints, internal server details.

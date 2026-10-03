@@ -6,6 +6,12 @@
 
 <!-- markdownlint-disable MD024 -->
 
+## [0.4.4] - 2026-10-03
+
+### Added
+
+- The new project workspace norm (Rule #2610031855): a production task on a new project triggers the workspace question - create a separate directory or work in an existing one - only when no explicit directory was communicated and the contextual directory carries no project markers; the BASE core gains the fifth section;
+
 ## [0.4.3] - 2026-10-03
 
 ### Added
