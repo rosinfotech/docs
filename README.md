@@ -136,6 +136,16 @@
 
 - [Rule #2610031288 - Property Order](/standards/css-code-style-standard/rule-2610031288.md)
 
+## The Git Code Project Standard
+
+### EditorConfig
+
+- [Rule #2610031936 - EditorConfig: The Root File](/standards/git-code-project-standard/rule-2610031936.md)
+
+### Makefile
+
+- [Rule #2610031938 - Makefile: Vendoring the Framework](/standards/git-code-project-standard/rule-2610031938.md)
+
 ## The Security Standard
 
 ### Sensitive data

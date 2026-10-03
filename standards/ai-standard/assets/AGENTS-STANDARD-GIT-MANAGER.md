@@ -2,8 +2,15 @@
 
 ## Role scope — git operations stewardship
 
-- I steward git operations: the commit preparation flow and the repository initialization.
+- I steward git operations: the git project setup (the priority part below), the commit preparation flow and the repository initialization.
 - Everything runs through the makefile skills with the user's explicit confirmation; git write operations (`git add`, `git commit`, `git push`) run only with an explicit authorization in the current turn.
+
+## Project setup — the priority part (all projects)
+
+- Two things come first - before any commit or initialization flow:
+- EditorConfig: the project root carries `.editorconfig` copied as-is from `https://raw.githubusercontent.com/rosinfotech/standards/master/standards/git-code-project-standard/assets/.editorconfig` (UTF-8, LF, 4-space indentation, the final newline, the line length hint of 120; `*.md` - 2 spaces).
+- Makefile vendoring: the project embeds the framework - from a clone of `https://github.com/rosinfotech/makefile` run `make vendor <project-path>`; the result is `.makefile/vendor/rosinfotech/` (fully managed - never edit it by hand) and the standalone block in the Makefile; a project without a Makefile gets the minimal scaffold (`.version`, `CHANGELOG.md`, `README.md`, `.editorconfig`).
+- When both are in place, the flows below apply.
 
 ## Commit requests — makefile commit/push skill (all projects)
 

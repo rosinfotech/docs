@@ -6,6 +6,14 @@
 
 <!-- markdownlint-disable MD024 -->
 
+## [0.4.6] - 2026-10-03
+
+### Added
+
+- The Git Code Project Standard: the EditorConfig root file rule (#2610031936, with the ready-to-copy asset) and the makefile vendoring rule (#2610031938, `make vendor` from a clone of rosinfotech/makefile);
+
+- The Git Manager priority part: the git project setup (EditorConfig + the vendoring) comes before the commit and initialization flows (Rule #2610031647, the asset section);
+
 ## [0.4.5] - 2026-10-03
 
 ### Added
