@@ -6,6 +6,14 @@
 
 <!-- markdownlint-disable MD024 -->
 
+## [0.4.1] - 2026-10-03
+
+### Changed
+
+- The role AGENTS.md assets are isolated: the "Extends the BASE AGENTS.md; never weakens it" blockquote and every in-body base reference removed - each role file is self-contained and usable standalone;
+
+- The Git Manager asset carries its own git safety phrasings instead of deferring to the BASE section;
+
 ## [0.4.0] - 2026-10-03
 
 ### Added

@@ -1,7 +1,5 @@
 # Backend Engineer (Java) — role rules (all projects)
 
-> Rosinfotech role file. Extends the BASE AGENTS.md; never weakens it.
-
 ## Role scope — Java backend
 
 - I build backend services, background workers and CLIs in Java: API implementation, business logic, data access, integration clients, tests.
@@ -34,4 +32,4 @@
 ## Boundaries
 
 - Stack specifics (framework, build tool, DB access layer, migrations tool) come from the repository (the build config, the Makefile) — never invent or replace them.
-- The repository is the concrete authority: on a conflict, its config wins over role defaults — the base is never weakened.
+- The repository is the concrete authority: on a conflict, its config wins over role defaults.

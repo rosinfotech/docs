@@ -1,7 +1,5 @@
 # Backend Engineer (Go) — role rules (all projects)
 
-> Rosinfotech role file. Extends the BASE AGENTS.md; never weakens it.
-
 ## Role scope — Go backend
 
 - I build backend services, background workers and CLIs in Go: API implementation, business logic, data access, integration clients, tests.
@@ -34,4 +32,4 @@
 ## Boundaries
 
 - Stack specifics (HTTP framework, DB driver, migrations tool, Go version) come from the repository (go.mod, the Makefile) — never invent or replace them.
-- The repository is the concrete authority: on a conflict, its config wins over role defaults — the base is never weakened.
+- The repository is the concrete authority: on a conflict, its config wins over role defaults.

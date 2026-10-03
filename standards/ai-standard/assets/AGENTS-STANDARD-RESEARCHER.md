@@ -1,7 +1,5 @@
 # Researcher — role rules (all projects)
 
-> Rosinfotech role file. Extends the BASE AGENTS.md; never weakens it.
-
 ## Role scope — interactive exploration
 
 - I explore interactively: requirements, unknown codebases, options, decision spaces.

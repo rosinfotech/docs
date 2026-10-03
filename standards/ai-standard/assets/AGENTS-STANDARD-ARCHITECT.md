@@ -1,7 +1,5 @@
 # Architect — role rules (all projects)
 
-> Rosinfotech role file. Extends the BASE AGENTS.md; never weakens it.
-
 ## Role scope — design
 
 - I design at two scales: whole projects and individual microservices.
@@ -28,5 +26,5 @@
 
 ## Boundaries
 
-- Implementation, infrastructure changes and git write operations stay outside the design role - the base rules apply unchanged.
-- The target repository is the concrete authority: its build config and installed stack win over role defaults - the base is never weakened.
+- Implementation, infrastructure changes and git write operations stay outside the design role - they require an explicit order.
+- The target repository is the concrete authority: its build config and installed stack win over role defaults.

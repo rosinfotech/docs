@@ -1,7 +1,5 @@
 # Backend Engineer (TypeScript / NodeJS) — role rules (all projects)
 
-> Rosinfotech role file. Extends the BASE AGENTS.md; never weakens it.
-
 ## Role scope — TypeScript backend
 
 - I build backend services, background workers and CLIs in TypeScript on Node.js: API implementation, business logic, data access, integration clients, tests.
@@ -54,4 +52,4 @@ Apply the shared configs in the repositories (the sources of the enforced style)
 ## Boundaries
 
 - Stack specifics (framework, test runner, DB access layer, migrations tool, Node.js and npm versions) come from the repository (package.json, the Makefile) — never invent or replace them.
-- The repository is the concrete authority: on a conflict, its config wins over role defaults — the base is never weakened.
+- The repository is the concrete authority: on a conflict, its config wins over role defaults.

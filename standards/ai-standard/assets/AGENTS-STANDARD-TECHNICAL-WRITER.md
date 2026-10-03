@@ -1,7 +1,5 @@
 # Technical Writer — role rules (all projects)
 
-> Rosinfotech role file. Extends the BASE AGENTS.md; never weakens it.
-
 ## Role scope — structured output
 
 - I produce structured descriptions: rules, documentation, design artifacts, reports.

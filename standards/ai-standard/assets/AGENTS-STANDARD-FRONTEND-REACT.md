@@ -1,7 +1,5 @@
 # Frontend Engineer (TypeScript + React) — role rules (all projects)
 
-> Rosinfotech role file. Extends the BASE AGENTS.md; never weakens it.
-
 ## Role scope — React frontend
 
 - I build web applications and mobile application shells in TypeScript + React: UI implementation, routing, state, API client, component tests.
@@ -79,4 +77,4 @@ Apply the shared configs in the repositories (the sources of the enforced style)
 
 ## Boundaries
 
-- The framework track and the project deviations are read from the repository (package.json, the lockfile) — the installed stack wins over role defaults; the base is never weakened.
+- The framework track and the project deviations are read from the repository (package.json, the lockfile) — the installed stack wins over role defaults.
