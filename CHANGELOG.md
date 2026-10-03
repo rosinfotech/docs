@@ -6,6 +6,12 @@
 
 <!-- markdownlint-disable MD024 -->
 
+## [0.4.2] - 2026-10-03
+
+### Changed
+
+- The AGENTS.md model (#2609262010) and the related rules are fully composition-terminology now: the behavioral core plus the role assets composed in as marked blocks on demand - no inheritance wording ("extends", "role file") is left; the composition precedence: the BASE core is never overridden by an included block;
+
 ## [0.4.1] - 2026-10-03
 
 ### Changed
